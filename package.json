@@ -1,0 +1,33 @@
+{
+  "name": "strws",
+  "version": "1.0.0",
+  "description": "Star PHP Integrated Web Server",
+  "main": "Server.js",
+  "scripts": {
+    "start": "sudo service apache2 stop && sudo node Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stroonsN/StrWS.git"
+  },
+  "keywords": [
+    "str",
+    "star",
+    "web",
+    "server",
+    "php",
+    "http",
+    "stroonsN"
+  ],
+  "author": "stroonsN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stroonsN/StrWS/issues"
+  },
+  "homepage": "https://github.com/stroonsN/StrWS#readme",
+  "dependencies": {
+    "child-process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0"
+  }
+}
