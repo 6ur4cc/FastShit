@@ -9,7 +9,7 @@ module.exports = function () {
     mkdir(Config.www_path);
     console.log("[FastShit]Can you wait a second? I'm creating your index file in " + Config.www_path + " directory!");
     write(Config.www_path + '/' + Config.index_file, '<?php echo "<title>FastShit</title><p>Welcome to FastShit</p>"; ?>');
-    console.log("[FastShit]I need to change permissions for you...");
+    console.log("[FastShit]I need to change permissions for you...");ı
     chmod(Config.www_path, 0o777);
     console.log("[FastShit]Everything is ready! Handler started.");
 }
