@@ -1,5 +1,5 @@
 const write = require("fs").writeFileSync;
-cosnst mkdir = require("fs").mkdirSync;
+const mkdir = require("fs").mkdirSync;
 const chmod = require("fs").chmodSync;
 
 const Config = require("./Config");
