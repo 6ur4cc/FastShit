@@ -1,30 +1,30 @@
 {
-  "name": "strws",
+  "name": "fastshit",
   "version": "1.0.0",
-  "description": "Star PHP Integrated Web Server",
+  "description": "Fastshit Integrated Web Server",
   "main": "Server.js",
   "scripts": {
     "start": "sudo service apache2 stop && sudo node Server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stroonsN/StrWS.git"
+    "url": "git+https://github.com/6ur4cc/FastShit.git"
   },
   "keywords": [
-    "str",
-    "star",
+    "fs",
+    "FastShit",
     "web",
     "server",
     "php",
     "http",
-    "stroonsN"
+    "6ur4cc"
   ],
-  "author": "stroonsN",
+  "author": "6ur4cc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stroonsN/StrWS/issues"
+    "url": "https://github.com/6ur4cc/FastShit/issues"
   },
-  "homepage": "https://github.com/stroonsN/StrWS#readme",
+  "homepage": "https://github.com/6ur4cc/FastShit#readme",
   "dependencies": {
     "child-process": "^1.0.2",
     "fs": "0.0.1-security",
