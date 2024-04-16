@@ -1,4 +1,4 @@
-module.exports.www_path = "html";
-module.exports.default_port = 80;
+module.exports.www_path = "indexdir";
+module.exports.default_port = 8081;
 module.exports.php_path = "/usr/bin/php";
 module.exports.index_file = "index.php";
